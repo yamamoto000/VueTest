@@ -1,0 +1,36 @@
+.VueCarousel-slide {
+  position: relative;
+  background: #42b983;
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  text-align: center;
+  min-height: 100px;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#return-top {
+  background-color: #000;
+  border-radius: 50%;
+  bottom: 50px;
+  color: #fff;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  outline: 0;
+  position: fixed;
+  right: 50px;
+  text-align: center;
+  width: 50px;
+}
+
+#app {
+height:10000px;
+background: linear-gradient(#E4A972, #9941D8);
+}
